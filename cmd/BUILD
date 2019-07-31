@@ -13,6 +13,12 @@ go_binary(
     name = "take-home",
     embed = [":go_default_library"],
     deps = [
+        "@com_github_golang_protobuf//proto:go_default_library",
+        "@com_github_go_yaml_yaml//:go_default_library",
+        "@com_github_gin_gonic_gin//:go_default_library",
+        "@com_github_gin_gonic_gin//json:go_default_library",
+        "@com_github_ugorji_go//codec:go_default_library",
+        "@com_github_go_playground_validator//:go_default_library"
     ],
     visibility = ["//visibility:public"],
 )
