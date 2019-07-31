@@ -1,0 +1,23 @@
+{
+  "name": "infra-take-home",
+  "version": "0.1.0",
+  "description": "Take home project for postmates",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r351574nc3/infra-take-home.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r351574nc3/infra-take-home/issues"
+  },
+  "homepage": "https://github.com/r351574nc3/infra-take-home#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
